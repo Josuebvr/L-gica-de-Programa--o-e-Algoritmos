@@ -1,24 +1,29 @@
-Algoritmo "semnome"
+Algoritmo "exercicio 4"
+// Disciplina   : Lógica de Programação
+// Professora   : Sandra
 
-var
-   INDUSTRIA:REAL
-inicio
-   ESCREVA("DIGITE O INDICE DE POLUIÇÃO:")
-   LEIA(INDUSTRIA)
-   SE(INDUSTRIA>=0.05)E (INDUSTRIA<=0.25) ENTAO
-      ESCREVA ("INDICE DENTRO DOS PADRÕES ACEITAVEIS.")
-   SENAO
-      SE(INDUSTRIA>0.25) E (INDUSTRIA<0.4) ENTAO
-         ESCREVA ("PARALIZA AS ATIVIDADES SOMENTE DO 1º GRUPO")
-      SENAO
-         SE(INDUSTRIA>=0.4) E (INDUSTRIA<0.5) ENTAO
-            ESCREVA ("PARALIZA AS ATIVIDADES DO 1º E 2º GRUPO")
-         SENAO
-            SE(INDUSTRIA>=0.5) ENTAO
-               ESCREVA ("PARALIZA AS ATIVIDADES DOS TRES GRUPOS DE INDUSTRIAS")
-            FIMSE
-         FIMSE
-      FIMSE
-   FIMSE
+Var
+
+  industria:real
+  
+Inicio
+
+   escreva("Digite o indice de poluição:")
+   leia(industria)
+   se(industria>=0.05)e (industria<=0.25) entao
+      escreva ("Indice dentro dos padrões aceitaveis.")
+   senao
+      se(industria>0.25) e (industria<0.4) entao
+         escreva ("Paraliza as atividades somente do 1º grupo")
+      senao
+         se(industria>=0.4) e (industria<0.5) entao
+            escreva ("Paraliza as atividades do 1º e 2º grupo")
+         senao
+            se(industria>=0.5) entao
+               escreva ("Paraliza as atividades dos tres grupos de industrias")
+            fimse
+         fimse
+      fimse
+   fimse
 
 fimalgoritmo

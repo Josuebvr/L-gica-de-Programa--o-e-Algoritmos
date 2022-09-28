@@ -1,12 +1,10 @@
-Algoritmo "lista 2EX1"
-//
-//
-// Descrição   : PESO PEIXES
-// Autor(a)    : EDUARDO
+Algoritmo "Exercicio 1"
+// Disciplina   : Lógica de Programação
+// Professora   : Sandra
 
 Var
-   peso, excesso: real
 
+   peso, excesso: real
 
 Inicio
 
@@ -16,12 +14,10 @@ Inicio
       excesso<-peso-50
 
       escreval("Excesso de peso em",excesso,"Kg")
-      
-      
+
       escreva("Multa R$:",excesso*4.00)
    senao
       escreva("Peso dentro do limite")
    fimse
-
 
 Fimalgoritmo

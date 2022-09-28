@@ -1,14 +1,17 @@
-Algoritmo "Lista 2EX8 MHR"
+Algoritmo "exercicio 8"
+// Disciplina   : Lógica de Programação 
+// Professora   : Sandra 
 //
 //
 Var
-   // Seção de Declarações das variáveis
+
    pes:inteiro
    polegada:real
    jarda:real
    milha:real
 
 Inicio
+
    escreva("Digite a medida em Pés: ")
    leia(pes)
 
@@ -18,9 +21,5 @@ Inicio
    escreva("Medida em Polegadas: ",polegada)
    escreva("Medida em Jardas: ",jarda)
    escreva("Medida em Mihas: ",milha)
-
-
-
-
 
 Fimalgoritmo
